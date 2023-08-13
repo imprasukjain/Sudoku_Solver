@@ -28,7 +28,7 @@ To set up the Sudoku Solver project on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sudoku-solver.git
+   git clone https://github.com/imprasukjain/Sudoku_Solver.git
    cd sudoku-solver
    ```
 
