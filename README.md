@@ -1,6 +1,8 @@
-Sure, here's a basic `README.md` template for your Sudoku Solver using Computer Vision project:
-
 # Sudoku Solver using Computer Vision
+
+![Output](Output.png)<br>
+*Sample Output*
+
 
 This project is an implementation of a Sudoku Solver using Computer Vision techniques. The solver is designed to take an image of a Sudoku puzzle as input, extract the puzzle's digits using image processing, and then solve the puzzle using an algorithmic approach.
 
