@@ -8,6 +8,7 @@ This project is an implementation of a Sudoku Solver using Computer Vision techn
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Directory](#directory)
 - [Usage](#usage)
 - [Methodology](#methodology)
 - [Requirements](#requirements)
@@ -41,6 +42,27 @@ To set up the Sudoku Solver project on your local machine, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+
+## Directory
+
+ ```bash
+.
+├── output
+│   └── digit_classifier.h5        # Trained digit classifier model
+├── Project_dir
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── Sudokunet.py           # Implementation of the Sudokunet model
+│   ├── Sudoku
+│   │   ├── __init__.py
+│   │   └── puzzle.py              # Sudoku puzzle solving logic
+│   └── __init__.py
+├── solve_sudoku_puzzle.py         # Script to solve Sudoku puzzles
+├── sudoku_puzzle.jpg              # Sample Sudoku puzzle image
+└── train_digit_classifier.py      # Script to train the digit classifier
+```
+
+
 
 ## Usage
 
